@@ -1,0 +1,439 @@
+:root {
+  --main-color: #0078ff;
+}
+
+.title h2 {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.title p::after {
+  content: "";
+  width: 5%;
+  height: 5px;
+  background-color: var(--main-color);
+  position: absolute;
+  top: 40px;
+  bottom: 0;
+  left: 50%;
+  border-radius: 20px;
+  transform: translate(-50%, -50%);
+
+}
+
+
+
+
+.nav-item {
+
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
+
+.nav-item:hover a {
+  border-bottom: .125rem solid white;
+}
+
+.navbar .nav-link {
+  color: white;
+}
+
+.home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero-bg.jpg);
+  background-attachment:fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.home .home-area p::before {
+  content: '';
+  animation-name: typing;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes typing {
+  0% {
+    content: 'CE|';
+  }
+
+  2% {
+    content: 'CEO D| ';
+  }
+
+  4% {
+    content: 'CEO Dev|';
+  }
+
+  6% {
+    content: 'CEO Devfo|';
+  }
+
+  8% {
+    content: 'CEO Devfoilo|';
+  }
+
+  10% {
+    content: 'CEO Devfoi|';
+  }
+
+  12% {
+    content: 'CEO Devf|';
+  }
+
+  14% {
+    content: 'CEO D|';
+  }
+
+  16% {
+    content: 'C|';
+  }
+
+  18% {
+    content: 'We|';
+  }
+
+  20% {
+    content: 'Web|';
+  }
+
+  22% {
+    content: 'Web De|';
+  }
+
+  24% {
+    content: 'Web Deve|';
+  }
+
+  26% {
+    content: 'Web Develo|';
+  }
+
+  28% {
+    content: 'Web Develope|';
+  }
+
+  30% {
+    content: 'Web Developer|';
+  }
+
+  32% {
+    content: 'Web Develop|';
+  }
+
+  34% {
+    content: 'Web Devel|';
+  }
+
+  34% {
+    content: 'Web Dev|';
+  }
+
+  36% {
+    content: 'Web De|';
+  }
+
+  38% {
+    content: 'Web Des|';
+  }
+
+  40% {
+    content: 'Web Desi|';
+  }
+
+  42% {
+    content: 'Web Desin|';
+  }
+
+  44% {
+    content: 'Web Desing|';
+  }
+
+  46% {
+    content: 'Web Desinge|';
+  }
+
+  48% {
+    content: 'Web Desinger|';
+  }
+
+  50% {
+    content: 'Web Desing|';
+  }
+
+  52% {
+    content: 'Web Desi|';
+  }
+
+  54% {
+    content: 'Web De|';
+  }
+
+  56% {
+    content: 'Web |';
+  }
+
+  58% {
+    content: 'We|';
+  }
+
+  60% {
+    content: 'W|';
+  }
+
+  62% {
+    content: 'F|';
+  }
+
+  64% {
+    content: 'Fr|';
+  }
+
+  68% {
+    content: 'Fro|';
+  }
+
+  70% {
+    content: 'Fron|';
+  }
+
+  71% {
+    content: 'Fronte|';
+  }
+
+  72% {
+    content: 'Fronten|';
+  }
+
+  73% {
+    content: 'Frontend D|';
+  }
+
+  74% {
+    content: 'Frontend De|';
+  }
+
+  75% {
+    content: 'Frontend Dev|';
+  }
+
+  76% {
+    content: 'Frontend Deve|';
+  }
+
+  77% {
+    content: 'Frontend Devel|';
+  }
+
+  78% {
+    content: 'Frontend Develo|';
+  }
+
+  79% {
+    content: 'Frontend Develop|';
+  }
+
+  80% {
+    content: 'Frontend Developer|';
+  }
+
+  81% {
+    content: 'Frontend Develop|';
+  }
+
+  82% {
+    content: 'Frontend Deve|';
+  }
+
+  83% {
+    content: 'Frontend De|';
+  }
+
+  84% {
+    content: 'Frontend|';
+  }
+
+  85% {
+    content: 'Fronte|';
+  }
+
+  86% {
+    content: 'Fr|';
+  }
+
+  87% {
+    content: 'G|';
+  }
+
+  88% {
+    content: 'Gra|';
+  }
+
+  89% {
+    content: 'Graph|';
+  }
+
+  90% {
+    content: 'Graphic|';
+  }
+
+  91% {
+    content: 'Graphic De|';
+  }
+
+  92% {
+    content: 'Graphic Desi|';
+  }
+
+  93% {
+    content: 'Graphic Desing|';
+  }
+
+  94% {
+    content: 'Graphic Deinger|';
+  }
+
+  95% {
+    content: 'Graphic Dein|';
+  }
+
+  96% {
+    content: 'Graphic D|';
+  }
+
+  97% {
+    content: 'Graphi|';
+  }
+
+  98% {
+    content: 'Gr|';
+  }
+
+  99% {
+    content: 'Gr|';
+  }
+
+  100% {
+    content: 'G|';
+  }
+
+
+
+
+}
+
+.section-header h2 {
+  font-size: 4rem;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+
+
+
+.ABOUT ul li {
+  list-style-type: none;
+  margin-bottom: 1.5rem;
+}
+
+.icon-area .icon {
+  width: 6rem;
+  height: 6rem;
+  border: 8px solid var(--main-color);
+  border-radius: 50%;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
+
+.icon-area .icon:hover {
+  background-color: var(--main-color);
+  border-color: transparent;
+  color: white;
+}
+
+
+#back {
+  background-image: url(../img/post-3.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 50vh;
+}
+
+#back .layer {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--main-color);
+  opacity: .7;
+}
+
+#back .icon {
+  width: 5rem;
+  height: 5rem;
+  border: 10px solid white;
+  border-radius: 50%;
+}
+
+#back .icon i {
+  color: white;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+
+.PORTFOLIO .card .image img {
+  transition: transform 0.5s;
+  -webkit-transition: transform 0.5s;
+  -moz-transition: transform 0.5s;
+  -ms-transition: transform 0.5s;
+  -o-transition: transform 0.5s;
+}
+
+.PORTFOLIO .card:hover img {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.carousel {
+  background-image: linear-gradient(rgba(31,114,219,0.5),rgba(31,114,219,0.5)), url(../img/overlay-bg.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 60vh;
+}
+.carousel .carousel-item i{
+  padding: 0.5rem 0;
+  width: 3rem;
+  height: 3rem;
+  border-radius:50%;
+  color: var(--main-color);
+  background-color: #fff;
+  font-size: 2rem;
+  border:solid 2px white ;
+  -webkit-border-radius:50%;
+  -moz-border-radius:50%;
+  -ms-border-radius:50%;
+  -o-border-radius:50%;
+}
+#Blog .card-body .card-btn{
+  top: 0;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
